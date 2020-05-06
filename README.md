@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Linked OpenStreetMap
 
-You can use the [editor on GitHub](https://github.com/openplannerteam/losm-website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**L**inked **O**pen**S**treet**M**ap is an effort to make the live and historic versions of OpenStreetMap queryable on the client-side. It uses Linked Data and the Resource Description Framework (RDF) to decentralize derived data publishing.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Our projects
 
-### Markdown
+#### Road network route planning
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ * [Routable Tiles specification](https://openplanner.team/specs/2018-11-routable-tiles.html): the specification of the Web API of routable tiles
+ * [Routable Tiles Ontology](https://github.com/openplannerteam/routable-tiles-ontology): a mapping of the OSM entities and tags to a Linked Data vocabulary.
+ * [Main routables tiles dataset](https://tiles.openplanner.team/planet/14/8411/5485/): a live routable tiles instance for public adoption.
+ * Transit Tiles specification: _todo_
+ * Transit Tiles datasets: _todo_
 
-```markdown
-Syntax highlighted code block
+Using [Planner.js](https://planner.js.org), you can create your own custom route planner.
 
-# Header 1
-## Header 2
-### Header 3
+Using the [Profile Ontology](https://github.com/openplannerteam/profile-ontology) you can define how a route planner must interpret the OSM tags when routing using a specific transport mode.
 
-- Bulleted
-- List
+#### Places of Interests
 
-1. Numbered
-2. List
+Open Places of Interests at opoi.org!
 
-**Bold** and _Italic_ and `Code` text
+#### Comunica
 
-[Link](url) and ![Image](src)
-```
+In Comunica, it will soon become possible to use GeoSPARQL to query for feature in OSM. Demo coming soon.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Our publications
 
-### Jekyll Themes
+ * Colpaert, P., Abelshausen, B., Meléndez, J. A. R., Delva, H., & Verborgh, R. (2019, June). [Republishing OpenStreetMap’s roads as Linked Routable Tiles](http://pieter.pm/demo-paper-routable-tiles/). In European Semantic Web Conference (pp. 13-17). Springer, Cham.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/openplannerteam/losm-website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* Delva, H., Rojas Melendez, J. A., Abelshausen, B., Colpaert, P., & Verborgh, R. (2019). [Client-side route planning: preprocessing the OpenStreetMap road network for Routable Tiles](https://hdelva.be/publication/delva-harm-2019-3387705/). In Academic Track, State of the Map 2019 (pp. 23-24).
 
-### Support or Contact
+### Join the team
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+We are only starting. Do [join our slack](https://join.slack.com/t/openplanner/shared_invite/zt-781ymf0m-3SmsaDS40b_by8MXimV9aQ) if you want to discuss about developing this Linked Data version of the OpenStreetMap dataset!
