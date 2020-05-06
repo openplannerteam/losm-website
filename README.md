@@ -22,7 +22,7 @@ Open Places of Interests at opoi.org!
 
 #### Comunica
 
-In Comunica, it will soon become possible to use GeoSPARQL to query for feature in OSM. Demo coming soon.
+In [Comunica](https://comunica.linkeddatafragments.org), it will soon become possible to use GeoSPARQL to query for feature in OSM. Demo coming soon.
 
 ### Our publications
 
